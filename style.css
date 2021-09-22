@@ -38,34 +38,20 @@ body{
   border-color: #6dc6f0;
 }
 
-a{
-  padding: 13.3px 125px;
-  position: relative;
-  cursor: pointer;
+.box input[type = "submit"]{
+  border:0;
+  background: steelblue;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid  steelblue;
+  padding: 14px 130px;
   outline: none;
-  border: 3.3px solid;
-  border-radius: 0;
-  font-weight: bold;
-  left: -4px;
-  color:steelblue;
-  text-decoration: none;
-  background-color: steelblue;
-  border-bottom: -3px;
-  padding-bottom: 12.6px;
-  width: 300px;
+  color: white;
+  border-radius: 2px;
+  transition: 0.25s;
+  cursor: pointer;
 }
-a:hover{
+.box input[type = "submit"]:hover{
   background: linear-gradient(120deg,#203644, #40607e);
 }
-
-a span{
-  font-weight: bold;
-  color: #fff;
-  font-size: 20px;
- 
-}
-
-a span:hover{
-    color: steelblue;
-}
-
